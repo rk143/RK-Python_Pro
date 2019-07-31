@@ -8,7 +8,7 @@ def fa(ar, r):
 		rsum = 0
 		for j in range(i + 1, r): 
 			rsum += ar[j] 
-		if (lsum * (r - i - 1) == rsum * (i + 1)): 
+	if (lsum * (r - i - 1) == rsum * (i + 1)): 
 			print("yes") 
 			found = True
 
